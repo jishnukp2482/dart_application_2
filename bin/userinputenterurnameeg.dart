@@ -14,4 +14,12 @@ void main() {
   print("enter your mark");
   var mark = double.parse(stdin.readLineSync()!);
   print("cgpa is $mark");
+
+  ///next pgm
+  print("enter your name");
+  var nme = stdin.readLineSync();
+  print("hello$nme");
+  print("enter your score");
+  int? score = int.parse(stdin.readLineSync()!);
+  print("your score is $score");
 }
