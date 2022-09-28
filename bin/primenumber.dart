@@ -16,3 +16,9 @@ void main(List<String> args) {
     print("${num} is not prime");
   }
 }
+
+
+///num=13 i=2 i<=13~/2=6 true if(13%2==0) false prime=0 i++
+///num=13 i=3 i<=13~/3=4 true if(13%2==0) false prime=0 i++
+///num=13 i=4 i<=13~/4=3 false since 4<=3 for loop false and exit from the loop 
+///if (prime==0)==>prime number
