@@ -16,18 +16,14 @@ void details(String name, int age, String email, int phone, int houseno,
 
 void main() {
   print("enter your name");
-  var name = stdin.readLineSync();
+  String name = stdin.readLineSync()!;
   print("enter your age");
-  var age = stdin.readLineSync();
+  int age = int.parse(stdin.readLineSync()!);
   print("enter your email");
-  var email = stdin.readLineSync();
+  String email = stdin.readLineSync()!;
   print("enter your phone");
-  var phone = stdin.readLineSync();
+  int phone = int.parse(stdin.readLineSync()!);
   print("enter your houseno");
-  var huseno = stdin.readLineSync();
-  print("enter your pincode");
-  var pincode = stdin.readLineSync();
-  print("enter your dob");
-  var dob = stdin.readLineSync();
-  details(name, age, email, phone, houseno, pincode: pincode, dob: dob);
+  int houseno = int.parse(stdin.readLineSync()!);
+  details(name, age, email, phone, houseno, pincode: 679335, dob: "25/06/2002");
 }
