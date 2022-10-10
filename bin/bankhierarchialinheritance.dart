@@ -18,7 +18,7 @@ class hdfc extends bank {
 void main() {
   sbi obj = sbi();
   print("IFSC cODE            :${obj.ifsc}");
-  obj.detais("kakkand", 3456789, "savings", "10:00 AM");
+  obj.detais("kakkanad", 3456789, "savings account", "10:00 AM");
 
   hdfc obj1 = hdfc();
   print("\nIFSC CODE            :${obj1.ifsc}");
