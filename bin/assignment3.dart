@@ -25,5 +25,9 @@ void main() {
   int phone = int.parse(stdin.readLineSync()!);
   print("enter your houseno");
   int houseno = int.parse(stdin.readLineSync()!);
-  details(name, age, email, phone, houseno, pincode: 679335, dob: "25/06/2002");
+  print("enter your dob");
+  String db = stdin.readLineSync()!;
+   print("enter your pincode");
+  int pin = int.parse(stdin.readLineSync()!);
+  details(name, age, email, phone, houseno, pincode: pin, dob: db);
 }

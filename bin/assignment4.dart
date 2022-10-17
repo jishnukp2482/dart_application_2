@@ -1,5 +1,7 @@
 class Demo {
   String data = "jishnu";
+
+  set setadata(int setadata) {}
   void show() {
     print("Welcome to dart");
   }
